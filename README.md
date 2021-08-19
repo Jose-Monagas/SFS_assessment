@@ -20,13 +20,13 @@ After loading both the "Current Clients" and "leads_data" files into pandas, I c
 
 The leads data dataframe was grouped by gender to determine how many of the previous clients were male and female. The number of female clients was 477 and male 498. The breakdown is shown in the pie chart below. 
 
-![gender pie char](analysis/DataByGenderPieChart.png)
+![gender pie char](analysis/figures/DataByGenderPieChart.png)
 
 As we can see the amount of male and female users is pretty balanced so market to both female and male customers equally. 
 
 For the next step in the analysis, I grouped the data by state and applied a count. Then I sorted the data in descending order to get the top 15 states and created a bar chart with matplotlib. The top 15 states chart is shown below. 
 
-![top 15 states](analysis/Top15states.png)
+![top 15 states](analysis/figures/Top15states.png)
 
 As we can see, the top 15 states are also the states with the biggest population so there is a positive correlation between the size and the number of users. 
 
